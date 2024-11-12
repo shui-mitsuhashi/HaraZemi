@@ -26,7 +26,7 @@ namespace StarterAssets
         public float RotationSmoothTime = 0.12f;
 
         [Tooltip("Acceleration and deceleration")]
-        public float SpeedChangeRate = 10.0f;
+        public float SpeedChangeRate = 200.0f;
 
         public AudioClip LandingAudioClip;
         public AudioClip[] FootstepAudioClips;
@@ -51,7 +51,7 @@ namespace StarterAssets
         public bool Grounded = true;
 
         [Tooltip("Useful for rough ground")]
-        public float GroundedOffset = -0.14f;
+        public float GroundedOffset = 0.28f;
 
         [Tooltip("The radius of the grounded check. Should match the radius of the CharacterController")]
         public float GroundedRadius = 0.28f;
